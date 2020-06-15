@@ -1,0 +1,35 @@
+ get the no of records
+
+  curl http://localhost:8084/article-app1/count
+
+  Gte all records
+
+  curl http://localhost:8084/article-app1/ 
+
+  Get record with id
+
+  curl http://localhost:8084/article-app1/393e5bfa-e257-4542-b1dc-abbd1bafc733
+ 
+
+  Post New data (Use Qoutes with escape "\" character4s 
+  with curl on windows
+
+curl -X POST -H "Content-Type: application/json" -d "{\"name\":\"bava\",\"price\":33.678}"  http://localhost:8084/article-app1/
+
+    
+curl -X POST -H "Content-Type: application/json" -d "{\"name\":\"abc\",\"price\":56.98}"  http://localhost:8084/article-app1/
+
+  Update records with curl
+ curl -X PUT -H "Content-Type: application/json" -d "{\"id\":\"393e5bfa-e257-4542-b1dc-abbd1bafc733\",\"name\":\"Baba\",\"price\":5.32}  " http://localhost:8084/article-app1/393e5bfa-e257-4542-b1dc-abbd1bafc733
+
+  Delete record with curl
+  
+  curl -X DELETE  http://localhost:8084/article-app1/393e5bfa-e257-4542-b1dc-abbd1bafc733
+
+Post data from user.json file
+
+
+curl -X POST -H "Content-Type:application/json" -d @user.json  http://localhost:8084/article-app1
+
+ 
+

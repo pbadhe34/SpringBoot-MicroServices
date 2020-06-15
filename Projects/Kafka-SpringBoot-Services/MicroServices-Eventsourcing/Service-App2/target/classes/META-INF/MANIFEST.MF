@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: Article Service App2
+Implementation-Version: 1.0.0
+Built-By: Prakash
+Implementation-Vendor-Id: com.scm
+Build-Jdk: 1.8.0_144
+Implementation-URL: http://projects.spring.io/spring-boot/Service-App2
+ /
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

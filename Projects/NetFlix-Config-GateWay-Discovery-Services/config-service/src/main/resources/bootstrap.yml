@@ -1,0 +1,7 @@
+#No GIT URI Set
+spring:
+  profiles:
+    active: native
+    
+server:
+  port: 8088

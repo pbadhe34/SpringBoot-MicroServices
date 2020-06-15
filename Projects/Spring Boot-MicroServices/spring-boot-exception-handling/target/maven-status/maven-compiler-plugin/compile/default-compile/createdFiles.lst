@@ -1,0 +1,10 @@
+com/data/EntityNotFoundException.class
+com/data/bird/BirdRepository.class
+com/data/bird/Bird.class
+com/data/ApiError.class
+com/data/bird/Bird$BirdBuilder.class
+com/data/RestExceptionHandler.class
+com/data/ApiError$ApiValidationError.class
+com/data/ApiError$ApiSubError.class
+com/data/LowerCaseClassNameResolver.class
+com/data/bird/BirdCollection.class

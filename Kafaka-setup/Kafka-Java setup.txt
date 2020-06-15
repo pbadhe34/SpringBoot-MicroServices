@@ -1,0 +1,15 @@
+Download Apache Kafaka from the link :
+
+https://www.apache.org/dyn/closer.cgi?path=/kafka/2.4.1/kafka_2.13-2.4.1.tgz
+
+
+The kafka reqires java to be installed.
+
+ set  Path=%path%;<java bin directory path>
+ set JAVA_HOME=<Path to java home dir>
+
+ Run Kafka
+ Extract kafka_2.13-2.4.1.tgz on root local drive.
+From extracted kafka Dir/bin/windows 
+1. Run ZooKeeper service : zookeeper-server-start
+ 2. Run Kafaka : kafka-server-start
